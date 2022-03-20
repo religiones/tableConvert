@@ -1,11 +1,10 @@
 import './App.css';
+import Table from './components/Table';
+import MyTable from './components/myTable';
+const App: React.FC<{}> = () => 
+  (<div className="App">
+    <MyTable/>
+  </div>);
 
-function App() {
-  return (
-    <div className="App">
-      1
-    </div>
-  );
-}
 
 export default App;
